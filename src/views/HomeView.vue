@@ -31,14 +31,14 @@ function increment() {
             
                     <Capsule>
                         <template #header>
-                            <h2>// <router-link class="sc-color-text" to="/quickref">quickref</router-link></h2>
+                            <!-- <h2>// <router-link class="sc-color-text" to="/quickref">quickref</router-link></h2> -->
                             <!-- <h2>// <nuxt-link class="sc-color-text" to="/quickref">quickref</nuxt-link></h2> -->
-                            <!-- <h2>// <NuxtLink class="sc-color-text" to="/quickref">quickref</NuxtLink></h2> -->
+                            <h2>// <NuxtLink class="sc-color-text" to="/quickref">quickref</NuxtLink></h2>
                             <!-- <NuxtLink to="/">Home page</NuxtLink> -->
                         </template>
                         <template #footer>
                             <div style="text-align:right;">
-                                <router-link to="x/quickref">learn more...</router-link>
+                                <router-link to="/quickref">learn more...</router-link>
                                 <!-- <nuxt-link to="x/quickref">learn more...</nuxt-link> -->
                             </div>
                         </template>
