@@ -9,15 +9,15 @@ import Capsule from '../components/capsule/Capsule.vue';
 import ImageCarousel from '../components/carousel/ImageCarousel.vue';
 import CapsuleLayout from '../components/capsule/CapsuleLayout.vue';
 
-// useSeoMeta({
-//   title: 'QuickRef',
-//   description: 'QuickRef - a free drawing reference tool for artists',
-//   ogDescription: 'QuickRef - a free drawing reference tool for artists',
-//   ogTitle: 'QuickRef',
-//   ogImage: 'https://i.imgur.com/EKD6Fe4.png',
-//   ogUrl: 'https://quickref.app',
-//   twitterCard: 'summary_large_image',
-// })
+useSeoMeta({
+  title: 'QuickRef',
+  description: 'QuickRef - a free drawing reference tool for artists',
+  ogDescription: 'QuickRef - a free drawing reference tool for artists',
+  ogTitle: 'QuickRef',
+  ogImage: 'https://i.imgur.com/EKD6Fe4.png',
+  ogUrl: 'https://quickref.app',
+  twitterCard: 'summary_large_image',
+});
 
 const carouselImages = Vue.ref([
     '/src/assets/quickref_images/QuickRef_6mACsYjRMX.png', 

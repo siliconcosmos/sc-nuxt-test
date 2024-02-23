@@ -1,14 +1,15 @@
 <script setup lang="ts">
 import { ref, type Ref } from 'vue';
+import { useSeoMeta } from '@unhead/vue'
 import Header from '../components/Header.vue';
 import Body from '../components/Body.vue';
 import Capsule from '../components/capsule/Capsule.vue';
 
-let counter:Ref<number> = ref(0);
-
-function increment() {
-    counter.value++;
-}
+useSeoMeta({
+  title: 'silicon cosmos',
+  description: 'Silicon Cosmos is creating software to make your experience learning to draw better',
+  ogDescription: 'Silicon Cosmos is creating software to make your experience learning to draw better'
+});
 </script>
 
 <template>
