@@ -1,7 +1,7 @@
 # https://github.com/actions/deploy-pages#usage
-name: Nuxt3 Deploy to GitHub Pages
+name: Deploy Nuxt 3 to GitHub Pages
 on:
-  # workflow_dispatch:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -15,10 +15,10 @@ jobs:
         with:
           node-version: "20"
       # Pick your own package manager and build script
-      - run: npm install
+      - run: npm ci
       - run: npx nuxt build --preset github_pages
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./.output/public
   # Deployment job
@@ -38,4 +38,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
