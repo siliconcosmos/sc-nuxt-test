@@ -45,9 +45,11 @@ function increment() {
                         <template #oLeft>
                             <div class="centralize">
                                 <div class="project-img quickref-img">
-                                    <router-link class="no-decoration" to="/quickref">
+                                    <!-- link removed becasue nuxt broke my css image scaling -->
+                                    <!-- <nuxt-link class="no-decoration" to="/quickref">
                                         <img src="~/assets/quickref_logo.svg"/>
-                                    </router-link>
+                                    </nuxt-link> -->
+                                    <img src="~/assets/quickref_logo.svg"/>
                                 </div>
                             </div>
                         </template>
@@ -74,11 +76,12 @@ function increment() {
                         </template>
                         <template #oRight>
                             <div class="centralize">
-
                                 <div class="project-img moondial-img">
-                                    <a class="no-decoration" href="https://moondial.siliconcosmos.com">
+                                    <!-- link removed becasue nuxt broke my css image scaling -->
+                                    <!-- <a class="no-decoration" href="https://moondial.siliconcosmos.com">
                                         <img src="../assets/moon.svg" class="moon-yellow"/>
-                                    </a>
+                                    </a> -->
+                                    <img src="../assets/moon.svg" class="moon-yellow"/>
                                 </div>
                             </div>
                         </template>

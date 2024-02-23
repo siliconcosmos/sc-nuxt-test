@@ -6,7 +6,7 @@
 </template>
 
 <style scoped lang="scss">
-@import 'assets/main.scss';
+// @import 'assets/main.scss';
 // // @use "assets/global.scss" as glob;
 // // @import 'assets/global'; 
 

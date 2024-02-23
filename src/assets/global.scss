@@ -123,8 +123,9 @@ body {
     $scrollbar-color: $border-bright;
     $scrollbar-size: 5px;
 
-    scrollbar-color: $scrollbar-color rgba(0,0,0,0);
-    scrollbar-width: thin;
+    // disabled for now since chrome handles scrollbar styling in a weird way now
+    // scrollbar-color: $scrollbar-color rgba(0,0,0,0);
+    // scrollbar-width: thin;
   
     ::-webkit-scrollbar {
         width: $scrollbar-size;
