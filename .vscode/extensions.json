@@ -2,6 +2,7 @@
     "recommendations": [
         "github.vscode-github-actions",
         "vue.volar",
-        "vue.vscode-typescript-vue-plugin"
+        "vue.vscode-typescript-vue-plugin",
+        "nuxtr.nuxtr-vscode"
     ]
 }
